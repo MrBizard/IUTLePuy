@@ -1,4 +1,0 @@
-﻿  main.cpp
-C:\Users\adrie\source\repos\TPDevCPP\TP01\TP01\main.cpp(70,13): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
-C:\Users\adrie\source\repos\TPDevCPP\TP01\TP01\main.cpp(71,13): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
-  TP01.vcxproj -> C:\Users\adrie\source\repos\TPDevCPP\TP01\x64\Debug\TP01.exe
