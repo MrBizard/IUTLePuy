@@ -1,2 +1,2 @@
 # IUTLePuy
-tout mes cours sue le puy en velay
+tout mes cours sur le puy en velay
