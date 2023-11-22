@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="CDonnee" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAiAgQAAAAAQAAACAAAAACAAAAA=</HashCode>
+      <FileName>Donnee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMenuAfficherDonnee" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAQAAEAAAAAAAACAAAA=</HashCode>
+      <FileName>MenuAfficherDonnee.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Donnee" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CMenuEcrireDonnee" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>MenuEcrireDonnee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMenuEtablirDonnee" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAQAAEAAAAgAAAAAAAA=</HashCode>
+      <FileName>MenuEtablirDonnee.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Donnee" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CMenuFichierDonnee" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAAAAAAAAAEAEAAAAAIAAAAAAA=</HashCode>
+      <FileName>MenuFichierDonnee.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_Donnee" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CMenuLireDonnee" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>MenuLireDonnee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMenuElmt" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAABAQgAAAQAAEAAABAAAAQAYAA=</HashCode>
+      <FileName>c:\users\woazim\documents\enseignement\2009-2010\algo\chap5\chap5\inc\menuelmt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CErreurEcritureDonnee" Collapsed="true">
+    <Position X="7.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ErreurDonnee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CErreurFichierDonnee" Collapsed="true">
+    <Position X="8.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAEAAAABUAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ErreurDonnee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CErreurLectureDonnee" Collapsed="true">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ErreurDonnee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

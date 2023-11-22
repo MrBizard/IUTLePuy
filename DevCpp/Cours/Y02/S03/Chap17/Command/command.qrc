@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/Actions">
+        <file alias="History.png">Resources/playlist.png</file>
+        <file alias="Quit.png">Resources/quit.png</file>
+        <file alias="Redo.png">Resources/stock_redo.png</file>
+        <file alias="Undo.png">Resources/stock_undo.png</file>
+    </qresource>
+    <qresource prefix="/Icones">
+        <file alias="White.png">Resources/200px-Button_Icon_White.png</file>
+        <file alias="Blue.png">Resources/200px-Button_Icon_Blue.png</file>
+        <file alias="Green.png">Resources/200px-Button_Icon_Green.png</file>
+        <file alias="Red.png">Resources/200px-Button_Icon_Red.png</file>
+    </qresource>
+</RCC>

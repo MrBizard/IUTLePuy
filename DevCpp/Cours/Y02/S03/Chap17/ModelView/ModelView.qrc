@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/Icones">
+        <file alias="Blue.png">Resources/200px-Button_Icon_Blue.png</file>
+        <file alias="Green.png">Resources/200px-Button_Icon_Green.png</file>
+        <file alias="GreenYellow.png">Resources/200px-Button_Icon_GreenYellow.png</file>
+        <file alias="Orange.png">Resources/200px-Button_Icon_Orange.png</file>
+        <file alias="Red.png">Resources/200px-Button_Icon_Red.png</file>
+        <file alias="Yellow.png">Resources/200px-Button_Icon_Yellow.png</file>
+    </qresource>
+</RCC>

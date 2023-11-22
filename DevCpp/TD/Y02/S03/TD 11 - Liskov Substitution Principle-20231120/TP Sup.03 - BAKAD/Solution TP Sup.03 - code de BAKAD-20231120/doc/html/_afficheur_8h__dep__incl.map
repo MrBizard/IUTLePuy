@@ -1,0 +1,22 @@
+<map id="BAKAD/Afficheur.h" name="BAKAD/Afficheur.h">
+<area shape="rect" id="node1" title="Déclaration de la classe d&#39;interface IAfficheur." alt="" coords="1434,5,1566,31"/>
+<area shape="rect" id="node2" href="$_afficheur_console_8h.html" title="Déclaration de la classe CAfficheurConsole." alt="" coords="1411,152,1589,177"/>
+<area shape="rect" id="node5" href="$_afficheur_lib_graph_8h.html" title="Déclaration de la classe CAfficheurLibGraph." alt="" coords="1203,152,1387,177"/>
+<area shape="rect" id="node7" href="$_afficheur_q_picture_8h.html" title="Déclaration de la classe CAfficheurQPicture." alt="" coords="1614,152,1797,177"/>
+<area shape="rect" id="node10" href="$_forme_8h.html" title="Déclaration de la classe CForme." alt="" coords="854,79,973,104"/>
+<area shape="rect" id="node20" href="$_q_widget_afficheur_8h.html" title="Déclaration de la classe Qt QWidgetAfficheur." alt="" coords="1678,79,1861,104"/>
+<area shape="rect" id="node3" href="$_afficheur_console_8cpp.html" title="Définition de la classe CAfficheurConsole." alt="" coords="565,225,758,251"/>
+<area shape="rect" id="node4" href="$_b_a_k_a_d_8cpp.html" title="Programme principal." alt="" coords="1315,225,1456,251"/>
+<area shape="rect" id="node6" href="$_afficheur_lib_graph_8cpp.html" title="Définition de la classe CAfficheurLibGraph." alt="" coords="342,225,541,251"/>
+<area shape="rect" id="node8" href="$_afficheur_q_picture_8cpp.html" title="Définition de la classe CAfficheurQPicture." alt="" coords="941,225,1139,251"/>
+<area shape="rect" id="node9" href="$_q_widget_afficheur_8cpp.html" title="Définition de la classe QWidgetAfficheur." alt="" coords="1697,225,1895,251"/>
+<area shape="rect" id="node11" href="$_carre_8h.html" title="Déclaration de la classe CCarre." alt="" coords="857,152,970,177"/>
+<area shape="rect" id="node13" href="$_cercle_8h.html" title="Déclaration de la classe CCercle." alt="" coords="569,152,687,177"/>
+<area shape="rect" id="node15" href="$_ellipse_8h.html" title="Déclaration de la classe CEllipse." alt="" coords="711,152,833,177"/>
+<area shape="rect" id="node17" href="$_forme_8cpp.html" title="Définition de la classe CForme." alt="" coords="995,152,1128,177"/>
+<area shape="rect" id="node18" href="$_rectangle_8h.html" title="Déclaration de la classe CRectangle." alt="" coords="405,152,545,177"/>
+<area shape="rect" id="node12" href="$_carre_8cpp.html" title="Définition de la classe CCarre." alt="" coords="1163,225,1290,251"/>
+<area shape="rect" id="node14" href="$_cercle_8cpp.html" title="Définition de la classe CCercle." alt="" coords="184,225,317,251"/>
+<area shape="rect" id="node16" href="$_ellipse_8cpp.html" title="Définition de la classe CEllipse." alt="" coords="782,225,917,251"/>
+<area shape="rect" id="node19" href="$_rectangle_8cpp.html" title="Définition de la classe CRectangle." alt="" coords="5,225,160,251"/>
+</map>

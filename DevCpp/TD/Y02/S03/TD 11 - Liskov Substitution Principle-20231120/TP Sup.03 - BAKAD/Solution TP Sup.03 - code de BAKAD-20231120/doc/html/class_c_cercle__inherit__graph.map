@@ -1,0 +1,4 @@
+<map id="CCercle" name="CCercle">
+<area shape="rect" id="node1" title="Classe de gestion d&#39;un cercle." alt="" coords="5,79,73,104"/>
+<area shape="rect" id="node2" href="$class_c_forme.html" title="Classe générique de gestion d&#39;une forme." alt="" coords="5,5,73,31"/>
+</map>

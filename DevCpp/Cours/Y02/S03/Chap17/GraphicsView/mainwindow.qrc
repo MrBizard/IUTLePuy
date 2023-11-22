@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="Icones">
+    <file alias="Quit.png">Resources/quit.png</file>
+    <file alias="redo.png">Resources/stock_redo.png</file>
+    <file alias="undo.png">Resources/stock_undo.png</file>
+    <file alias="liste.png">Resources/playlist.png</file>
+  </qresource>
+  <qresource prefix="Tools">
+    <file alias="selection.png">Resources/selection.png</file>
+    <file alias="ellipse.png">Resources/Ellipse.png</file>
+    <file alias="rect.png">Resources/tool-rect.png</file>
+  </qresource>
+</RCC>

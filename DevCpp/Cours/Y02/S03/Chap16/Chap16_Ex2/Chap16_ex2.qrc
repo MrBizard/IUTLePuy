@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file alias="fond.png">Resources/fond.png</file>
+        <file alias="lapin.png">Resources/lapin.png</file>
+    </qresource>
+</RCC>

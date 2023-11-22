@@ -1,0 +1,4 @@
+<map id="CCarre" name="CCarre">
+<area shape="rect" id="node1" title="Gestion d&#39;un carré." alt="" coords="8,79,71,104"/>
+<area shape="rect" id="node2" href="$class_c_forme.html" title="Classe générique de gestion d&#39;une forme." alt="" coords="5,5,73,31"/>
+</map>

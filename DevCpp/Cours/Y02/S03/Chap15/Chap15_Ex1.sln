@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chap15_Ex1", "Chap15_Ex1\Chap15_Ex1.vcxproj", "{B5FA2DE5-860A-4459-AB8B-64109F0B1B98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5FA2DE5-860A-4459-AB8B-64109F0B1B98}.Debug|x64.ActiveCfg = Debug|x64
+		{B5FA2DE5-860A-4459-AB8B-64109F0B1B98}.Debug|x64.Build.0 = Debug|x64
+		{B5FA2DE5-860A-4459-AB8B-64109F0B1B98}.Release|x64.ActiveCfg = Release|x64
+		{B5FA2DE5-860A-4459-AB8B-64109F0B1B98}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = $(DefaultQtVersion)
+		SolutionGuid = {3B3B53A2-E1D5-46D2-A810-814CBDF47B73}
+	EndGlobalSection
+EndGlobal

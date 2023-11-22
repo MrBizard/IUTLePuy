@@ -1,0 +1,6 @@
+<map id="IAfficheur" name="IAfficheur">
+<area shape="rect" id="node1" title="Interface de tous les afficheurs." alt="" coords="187,5,261,31"/>
+<area shape="rect" id="node2" href="$class_c_afficheur_console.html" title="Classe d&#39;affichage des formes en mode console." alt="" coords="5,79,133,104"/>
+<area shape="rect" id="node3" href="$class_c_afficheur_lib_graph.html" title="Classe d&#39;affichage en utilisant l&#39;excellentissime bibliothèque LibGraph2." alt="" coords="157,79,291,104"/>
+<area shape="rect" id="node4" href="$class_c_afficheur_q_picture.html" title="Classe d&#39;affichage des formes en utilisant Qt." alt="" coords="315,79,447,104"/>
+</map>

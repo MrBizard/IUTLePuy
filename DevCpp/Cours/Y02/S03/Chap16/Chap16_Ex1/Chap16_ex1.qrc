@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="Images">
+    <file alias="cowboy1.png">Resources/cowboy1.png</file>
+    <file alias="cowboy2.png">Resources/cowboy2.png</file>
+    <file alias="cowgirl.png">Resources/cowgirl.png</file>
+    <file alias="religieuse.png">Resources/religieuse.png</file>
+    <file alias="religieux.png">Resources/religieux.png</file>
+  </qresource>
+</RCC>

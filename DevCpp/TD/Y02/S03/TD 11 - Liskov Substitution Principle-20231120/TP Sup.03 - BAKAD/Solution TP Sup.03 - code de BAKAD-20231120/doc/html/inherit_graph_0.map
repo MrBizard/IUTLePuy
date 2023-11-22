@@ -1,0 +1,7 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$class_c_forme.html" title="Classe générique de gestion d&#39;une forme." alt="" coords="5,80,73,105"/>
+<area shape="rect" id="node2" href="$class_c_carre.html" title="Gestion d&#39;un carré." alt="" coords="135,5,197,31"/>
+<area shape="rect" id="node3" href="$class_c_cercle.html" title="Classe de gestion d&#39;un cercle." alt="" coords="132,55,200,80"/>
+<area shape="rect" id="node4" href="$class_c_ellipse.html" title="Classe de gestion d&#39;une ellipse." alt="" coords="131,104,201,129"/>
+<area shape="rect" id="node5" href="$class_c_rectangle.html" title="Classe de gestion d&#39;un rectangle." alt="" coords="121,153,211,179"/>
+</map>

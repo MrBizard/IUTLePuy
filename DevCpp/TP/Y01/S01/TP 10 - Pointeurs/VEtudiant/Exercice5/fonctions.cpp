@@ -1,0 +1,29 @@
+#include "fonctions.h"
+#include <array>
+#include <string>
+
+using namespace std::string_literals;
+
+const std::array management1 = { "L'excellence"s, "L'intervention"s, "L'objectif"s, "Le diagnostic"s, "L'expérimentation"s, "La formulation"s, "L'évaluation"s, "La finalité"s, "L'expression"s, "Le management"s, "La méthode"s, "Le vécu"s, "Le recadrage"s };
+const std::array management2 = { "renforce"s, "mobilise"s, "révèle"s, "stimule"s, "modifie"s, "clarifie"s, "renouvelle"s, "identifie"s, "perfectionne"s, "développe"s, "dynamise"s, "programme"s, "ponctue"s };
+const std::array management3 = { "les facteurs"s, "les processus"s, "les paramètres"s, "les changements"s, "les concepts"s, "les savoir-faire"s, "les problèmes"s, "les indicateurs"s, "les résultats"s, "les effets"s, "les blocages"s, "les besoins"s, "les paradoxes"s };
+const std::array management4 = { "institutionnels"s, "organisationnels"s, "qualitatifs"s, "analytiques"s, "caractéristiques"s, "motivationnels"s, "pédagogiques"s, "représentatifs"s, "participatifs"s, "cumulatifs"s, "stratégiques"s, "neurolinguistiques"s, "systématiques"s };
+const std::array management5 = { "de la performance"s, "du dispositif"s, "de l'entreprise"s, "du groupe"s, "du projet"s, "des bénéficiaires"s, "de la hiérarchie"s, "des pratiques"s, "de la démarche"s, "des acteurs"s, "de la problématique"s, "des structures"s, "du métacontexte"s };
+
+const std::array pedagogie1 = { "L'élève"s,  "La notion de cycle"s,  "La discipline"s,  "L'enseignement"s,  "L'excellence"s,  "L'intervention"s,  "L'objectif"s,  "Le diagnostic"s,  "L'expérimentation"s,  "La finalité"s,  "L'expression"s,  "La méthode"s,  "Le vécu"s,  "Le recadrage"s,  "L'interdisciplinarité"s,  "La pédagogie"s,  "L'abstraction"s,  "L'argumentation"s,  "L'école"s,  "L'exigence"s,  "La formation"s,  "L'observation"s,  "La continuité"s,  "L'évaluation"s,  "La compétence"s,  "L'Etat"s,  "L'erreur"s,  "L'individualisation"s,  "Le formateur"s,  "Le maître"s,  "L'apprenant"s,  "L'explicitation"s };
+const std::array pedagogie2 = { "abolit"s, "définit"s, "objective"s, "institue"s, "relativise"s, "banalise"s, "stigmatise"s, "évalue"s, "déconnecte"s, "renforce"s, "mobilise"s, "fragilise"s, "révèle"s, "stimule"s, "modifie"s, "clarifie"s, "renouvelle"s, "identifie"s, "perfectionne"s, "développe"s, "dynamise"s, "programme"s, "opérationnalise"s, "concrétise"s, "explicite"s, "inhibe"s, "élabore"s, "respecte"s, "assure"s, "permet"s, "valide"s };
+const std::array pedagogie3 = { "les antagonismes"s, "les facteurs"s, "les processus"s, "les paramètres"s, "les changements"s, "les concepts"s, "les savoir-faire"s, "les problèmes"s, "les indicateurs"s, "les résultats"s, "les effets"s, "les blocages"s, "les besoins"s, "les paradoxes"s, "les phénomènes"s, "les connecteurs"s, "les objectifs"s, "les apprentissages"s, "les critères"s, "les obstacles"s, "les outils"s, "les cycles"s, "les risques"s, "les acquis"s, "les écrits"s, "les travaux"s, "les éléments"s, "les organisteurs"s, "les réinvestissements"s, "les sytèmes"s, "les caractères"s };
+const std::array pedagogie4 = { "méthodologiques"s, "transformationnels"s, "relationnels"s, "interculturels"s, "spécifiques"s, "logiques"s, "opérationnels"s, "qualitatifs"s, "analytiques"s, "définitionnels"s, "institutionnels"s, "organisationnels"s, "qualitatifs"s, "caractéristiques"s, "motivationnels"s, "pédagogiques"s, "représentatifs"s, "participatifs"s, "cumulatifs"s, "stratégiques"s, "linguistiques"s, "mathématiques"s, "géographiques"s, "historiques"s, "systémiques"s, "didactiques"s, "psychologiques"s, "morphologiques"s, "transversaux"s, "chronologiques"s, "scientifiques"s, "éducatifs"s };
+const std::array pedagogie5 = { "des maîtres"s, "des objectifs"s, "de l'école"s, "de la performance"s, "du dispositif"s, "du groupe"s, "du projet"s, "des bénéficiaires"s, "de la hiérarchie"s, "des pratiques"s, "de la démarche"s, "des acteurs"s, "de la problématique"s, "des structures"s, "du méta-contexte"s, "des stagiaires"s, "des intervenants"s, "de l'enfant"s, "du discours"s, "de la transversalité"s, "de l'enseignement"s, "de l'évaluation"s, "de l'équipe"s, "de la scolarité"s, "du cursus"s, "du cycle"s, "des contenus"s, "de la langue"s, "des compétences"s, "des concepts"s, "de l'expression "s, "de l'intégration"s, "de la pratique"s, "de l'adaptation"s };
+
+const std::array programmation1 = { "L'autoboxing"s, "Le constructeur"s, "Le destructeur"s, "Le foncteur"s, "Le getter"s, "Le god object"s, "L'héritage"s, "L'inversion des dépendances"s, "Le mock"s, "Le multihéritage"s, "L'objet"s, "L'objet-valeur"s, "Le polymorphisme"s, "Le setter"s, "La substitution de Liskov"s, "Le type générique"s, "L'unboxing"s };
+const std::array programmation2 = { "classifie"s, "compose"s, "contient"s, "encapsule"s, "hydrate"s, "instancie"s, "passive"s, "surcharge"s, "surdéfini"s };
+const std::array programmation3 = { "la classe"s, "l'encapsulation"s, "la fonction"s, "la métaclasse"s, "la méthode"s, "la multiméthode"s, "la redéfinition"s, "la sous-classe"s, "la sous-méthode"s, "la variable de classe"s, "la variable d’instance"s };
+const std::array programmation4 = { "abstraite"s, "amie"s, "anonyme"s, "concrète"s, "de base"s, "dérivée"s, "externe"s, "fille"s, "finale"s, "générique"s, "interne"s, "locale"s, "membre"s, "mère"s, "statique"s, "wrapper"s, "multiple"s, "virtuelle"s };
+const std::array programmation5 = { "de la contravariance"s, "de la covariance"s, "de l'injection de dépendances"s, "de l'instance"s, "de l'interface"s, "de l'interface abstraite"s, "de l'interface concrète"s, "de la programmation objet"s, "de la propriété"s, "du service abstrait"s, "du singleton"s, "du sous-package"s, "du template"s };
+
+size_t aleatEntreBornes(size_t min, size_t max)
+{
+  return static_cast<size_t>(static_cast<double>(max - min + 1) * std::rand() / (RAND_MAX + 1)) + min;
+}
+

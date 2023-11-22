@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Chap16_Ex1Class</class>
+ <widget class="QDialog" name="Chap16_Ex1Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>328</width>
+    <height>307</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Choisissez votre avatar</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="lblPicture">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="chap16_ex1.qrc">:/Images/cowboy1.png</pixmap>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="btnCowboy1">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="chap16_ex1.qrc">
+           <normaloff>:/Images/cowboy1.png</normaloff>:/Images/cowboy1.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnCowboy2">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="chap16_ex1.qrc">
+           <normaloff>:/Images/cowboy2.png</normaloff>:/Images/cowboy2.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnCowgirl">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="chap16_ex1.qrc">
+           <normaloff>:/Images/cowgirl.png</normaloff>:/Images/cowgirl.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnReligieuse">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="chap16_ex1.qrc">
+           <normaloff>:/Images/religieuse.png</normaloff>:/Images/religieuse.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnReligieux">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="chap16_ex1.qrc">
+           <normaloff>:/Images/religieux.png</normaloff>:/Images/religieux.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>32</width>
+           <height>32</height>
+          </size>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="autoExclusive">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnOk">
+       <property name="text">
+        <string>OK</string>
+       </property>
+       <property name="default">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnCancel">
+       <property name="text">
+        <string>Annuler</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="chap16_ex1.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>btnCowboy1</sender>
+   <signal>clicked()</signal>
+   <receiver>Chap16_Ex1Class</receiver>
+   <slot>refreshPicture()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>305</x>
+     <y>40</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>266</x>
+     <y>60</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnCowboy2</sender>
+   <signal>clicked()</signal>
+   <receiver>Chap16_Ex1Class</receiver>
+   <slot>refreshPicture()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>287</x>
+     <y>78</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>267</x>
+     <y>90</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnCowgirl</sender>
+   <signal>clicked()</signal>
+   <receiver>Chap16_Ex1Class</receiver>
+   <slot>refreshPicture()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>294</x>
+     <y>130</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>268</x>
+     <y>129</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnReligieuse</sender>
+   <signal>clicked()</signal>
+   <receiver>Chap16_Ex1Class</receiver>
+   <slot>refreshPicture()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>296</x>
+     <y>178</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>269</x>
+     <y>183</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnReligieux</sender>
+   <signal>clicked()</signal>
+   <receiver>Chap16_Ex1Class</receiver>
+   <slot>refreshPicture()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>291</x>
+     <y>229</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>266</x>
+     <y>232</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnOk</sender>
+   <signal>clicked()</signal>
+   <receiver>Chap16_Ex1Class</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>205</x>
+     <y>288</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>75</x>
+     <y>247</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnCancel</sender>
+   <signal>clicked()</signal>
+   <receiver>Chap16_Ex1Class</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>281</x>
+     <y>288</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>117</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>refreshPicture()</slot>
+ </slots>
+</ui>

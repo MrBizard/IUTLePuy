@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/BAKoffee">
+        <file>Resources/caramel.png</file>
+        <file>Resources/chantilly.png</file>
+        <file>Resources/milk.png</file>
+        <file>Resources/sugar.png</file>
+        <file>Resources/coffee.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CommandClass</class>
+ <widget class="QMainWindow" name="CommandClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Command</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QListView" name="listView"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionQuitter"/>
+   </widget>
+   <widget class="QMenu" name="menuEdition">
+    <property name="title">
+     <string>Edition</string>
+    </property>
+    <widget class="QMenu" name="menuEl_ments">
+     <property name="title">
+      <string>Eléments</string>
+     </property>
+     <property name="icon">
+      <iconset resource="command.qrc">
+       <normaloff>:/Icones/White.png</normaloff>:/Icones/White.png</iconset>
+     </property>
+     <addaction name="actionRouge"/>
+     <addaction name="actionVert"/>
+     <addaction name="actionBleu"/>
+    </widget>
+    <addaction name="actionAnnuler"/>
+    <addaction name="actionR_tablir"/>
+    <addaction name="separator"/>
+    <addaction name="menuEl_ments"/>
+   </widget>
+   <widget class="QMenu" name="menuAffichage">
+    <property name="title">
+     <string>Affichage</string>
+    </property>
+    <addaction name="actionHistorique"/>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuEdition"/>
+   <addaction name="menuAffichage"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionQuitter"/>
+   <addaction name="separator"/>
+   <addaction name="actionAnnuler"/>
+   <addaction name="actionR_tablir"/>
+   <addaction name="separator"/>
+   <addaction name="actionRouge"/>
+   <addaction name="actionVert"/>
+   <addaction name="actionBleu"/>
+   <addaction name="separator"/>
+   <addaction name="actionHistorique"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="windowTitle">
+    <string>Liste d'actions</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="rightMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QUndoView" name="undoView" native="true"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <action name="actionQuitter">
+   <property name="icon">
+    <iconset resource="command.qrc">
+     <normaloff>:/Actions/Quit.png</normaloff>:/Actions/Quit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionAnnuler">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="command.qrc">
+     <normaloff>:/Actions/Undo.png</normaloff>:/Actions/Undo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Annuler</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Z</string>
+   </property>
+  </action>
+  <action name="actionR_tablir">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="command.qrc">
+     <normaloff>:/Actions/Redo.png</normaloff>:/Actions/Redo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Rétablir</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Y</string>
+   </property>
+  </action>
+  <action name="actionHistorique">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="command.qrc">
+     <normaloff>:/Actions/History.png</normaloff>:/Actions/History.png</iconset>
+   </property>
+   <property name="text">
+    <string>Historique</string>
+   </property>
+  </action>
+  <action name="actionRouge">
+   <property name="icon">
+    <iconset resource="command.qrc">
+     <normaloff>:/Icones/Red.png</normaloff>:/Icones/Red.png</iconset>
+   </property>
+   <property name="text">
+    <string>Rouge</string>
+   </property>
+   <property name="shortcut">
+    <string>R</string>
+   </property>
+  </action>
+  <action name="actionVert">
+   <property name="icon">
+    <iconset resource="command.qrc">
+     <normaloff>:/Icones/Green.png</normaloff>:/Icones/Green.png</iconset>
+   </property>
+   <property name="text">
+    <string>Vert</string>
+   </property>
+   <property name="shortcut">
+    <string>V</string>
+   </property>
+  </action>
+  <action name="actionBleu">
+   <property name="icon">
+    <iconset resource="command.qrc">
+     <normaloff>:/Icones/Blue.png</normaloff>:/Icones/Blue.png</iconset>
+   </property>
+   <property name="text">
+    <string>Bleu</string>
+   </property>
+   <property name="shortcut">
+    <string>B</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QUndoView</class>
+   <extends>QWidget</extends>
+   <header location="global">qundoview.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="command.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionQuitter</sender>
+   <signal>triggered()</signal>
+   <receiver>CommandClass</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionAnnuler</sender>
+   <signal>triggered()</signal>
+   <receiver>CommandClass</receiver>
+   <slot>undo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionR_tablir</sender>
+   <signal>triggered()</signal>
+   <receiver>CommandClass</receiver>
+   <slot>redo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionHistorique</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>dockWidget</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>559</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionRouge</sender>
+   <signal>triggered()</signal>
+   <receiver>CommandClass</receiver>
+   <slot>addRed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionVert</sender>
+   <signal>triggered()</signal>
+   <receiver>CommandClass</receiver>
+   <slot>addGreen()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionBleu</sender>
+   <signal>triggered()</signal>
+   <receiver>CommandClass</receiver>
+   <slot>addBlue()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>299</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>undo()</slot>
+  <slot>redo()</slot>
+  <slot>addRed()</slot>
+  <slot>addGreen()</slot>
+  <slot>addBlue()</slot>
+ </slots>
+</ui>

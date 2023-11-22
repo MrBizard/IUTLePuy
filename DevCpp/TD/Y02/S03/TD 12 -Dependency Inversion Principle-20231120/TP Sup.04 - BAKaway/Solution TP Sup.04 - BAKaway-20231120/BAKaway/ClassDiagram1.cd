@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CJoueur" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Joueur.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CModeleGraphique" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ModeleGraphique.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonstre" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQA=</HashCode>
+      <FileName>monstre.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonstreGluant" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAEAAAAA=</HashCode>
+      <FileName>MonstreGluant.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPlayScreen" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASABAACI0BAIEAAABAAEIEAAAgAACEAQAAAAAiCAAgA=</HashCode>
+      <FileName>playscreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPosition" Collapsed="true">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Position.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPosition2D" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAgAAAAAAAEAAAAAAAGAAEAAAAAA=</HashCode>
+      <FileName>Position2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CJoueurNormal" Collapsed="true">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>JoueurNormal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDecor" Collapsed="true">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAABAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CIA" Collapsed="true">
+    <Position X="10.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAQIAAAAAAAAAAAAAAAQAAAAAAAEA=</HashCode>
+      <FileName>IA.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMdlQPainter2D" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAAAAAEIAAAA=</HashCode>
+      <FileName>MdlQPainter2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMonde" Collapsed="true">
+    <Position X="6.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQIABAAAAAAAAQgAAAAAAAAEAAAAAAAAAAAAIAFhA=</HashCode>
+      <FileName>Monde.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPersonnage" Collapsed="true">
+    <Position X="10.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAARAAAAAAAAAAEAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Personnage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
